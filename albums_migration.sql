@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS quotes (
 CREATE TABLE albums (
                         id INT UNSIGNED NOT NULL AUTO_INCREMENT,
                         artist VARCHAR(50) DEFAULT 'NONE',
-                        song_name  VARCHAR(100) NOT NULL,
+                        name VARCHAR(100) NOT NULL,
                         release_date INTEGER,
                         sales FLOAT,
                         genre VARCHAR(50),
