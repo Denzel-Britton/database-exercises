@@ -1,3 +1,9 @@
+use denzel;
+select * from albums
+
+
+--   a comment
+
 SELECT name  FROM albums WHERE artist = 'Pink Floyd';
 
 SELECT release_date FROM alumbs WHERE name  = 'Sgt. Pepper''s Lonely Hearts Club Band';
