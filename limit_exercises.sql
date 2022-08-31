@@ -9,13 +9,13 @@ LIMIT 10;
 
 
 SELECT  emp_no
- from salaries
+from salaries
 order by  salary
-  desc limit 5;
+desc limit 5;
 
-
+# (desired_page * limit_amount- limit_amout)
 SELECT  emp_no
 from salaries
-order by salary
-desc limit 5
-offset 46;
+order by salary desc
+limit 5
+offset 45;
